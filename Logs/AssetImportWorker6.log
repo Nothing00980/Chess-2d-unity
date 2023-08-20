@@ -1,0 +1,320 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7583 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/yuvra/Desktop/Learnings/unity/2d/Chess2d
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+61518
+Successfully changed project path to: C:/Users/yuvra/Desktop/Learnings/unity/2d/Chess2d
+C:/Users/yuvra/Desktop/Learnings/unity/2d/Chess2d
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 258.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/yuvra/Desktop/Learnings/unity/2d/Chess2d/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+    Vendor:   NVIDIA
+    VRAM:     3949 MB
+    Driver:   31.0.15.3168
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.016611 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 118.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.355 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1355ms)
+		BeginReloadAssembly (223ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (756ms)
+			LoadAssemblies (220ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (340ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (331ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (65ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (119ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (95ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009069 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\yuvra\Desktop\Learnings\unity\2d\Chess2d\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\yuvra\Desktop\Learnings\unity\2d\Chess2d\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 215.20 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.168 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3169ms)
+		BeginReloadAssembly (893ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (2ms)
+			CreateAndSetChildDomain (611ms)
+		EndReloadAssembly (2069ms)
+			LoadAssemblies (478ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (584ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (151ms)
+			SetupLoadedEditorAssemblies (872ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (215ms)
+				BeforeProcessingInitializeOnLoad (174ms)
+				ProcessInitializeOnLoadAttributes (348ms)
+				ProcessInitializeOnLoadMethodAttributes (96ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 1.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5897 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (1.3 MB). Loaded Objects now: 6339.
+Memory consumption went from 230.5 MB to 229.2 MB.
+Total: 12.351500 ms (FindLiveObjects: 0.879400 ms CreateObjectMapping: 1.515400 ms MarkObjects: 7.544500 ms  DeleteObjects: 2.407600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 265017.671903 seconds.
+  path: Assets/sprites/JohnPablok Cburnett Chess set/PNGs/No shadow/1x/w_king_1x_ns.png
+  artifactKey: Guid(dfbb5a5e818007a49a5fe437e318ffc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/JohnPablok Cburnett Chess set/PNGs/No shadow/1x/w_king_1x_ns.png using Guid(dfbb5a5e818007a49a5fe437e318ffc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f226fafc519f1f52a0ea9b1a7fbb5999') in 0.332318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/sprites/JohnPablok Cburnett Chess set/PNGs/No shadow/256h/w_king_png_256px.png
+  artifactKey: Guid(25a211d9c9c3ae74db0449239554c75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/JohnPablok Cburnett Chess set/PNGs/No shadow/256h/w_king_png_256px.png using Guid(25a211d9c9c3ae74db0449239554c75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d21291a38070e104559cdd04ccf77cd') in 0.114044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.057968 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Visibility_Tool@4x.png
+  artifactKey: Guid(216c53aef79eaaf40a1800cc5e542dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Visibility_Tool@4x.png using Guid(216c53aef79eaaf40a1800cc5e542dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0dc928fc0502125aa68f6516f11a4ab') in 0.061534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/sprites/JohnPablok Cburnett Chess set/PNGs/With Shadow/1024px/w_bishop_png_shadow_1024px.png
+  artifactKey: Guid(6b74dcd4db468fe4d8c6d5b80fcc30fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/JohnPablok Cburnett Chess set/PNGs/With Shadow/1024px/w_bishop_png_shadow_1024px.png using Guid(6b74dcd4db468fe4d8c6d5b80fcc30fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6118220294b2306b2ad2838d03727a') in 0.207660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/sprites/JohnPablok Cburnett Chess set/PNGs/No shadow/512h/w_queen_png_512px.png
+  artifactKey: Guid(30195594eb283a64d9a1cf84576d6097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/JohnPablok Cburnett Chess set/PNGs/No shadow/512h/w_queen_png_512px.png using Guid(30195594eb283a64d9a1cf84576d6097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e43b7e929de2ad740f27fabcfa34bb') in 0.125531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/sprites/JohnPablok Cburnett Chess set/PNGs/With Shadow/256px/w_pawn_png_shadow_256px.png
+  artifactKey: Guid(a9533e6186d14e5428880d4980763723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/JohnPablok Cburnett Chess set/PNGs/With Shadow/256px/w_pawn_png_shadow_256px.png using Guid(a9533e6186d14e5428880d4980763723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c405003b06f56699d27622719c21cf17') in 0.100985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/sprites/JohnPablok Cburnett Chess set/PNGs/With Shadow/256px/w_knight_png_shadow_256px.png
+  artifactKey: Guid(f788bdb9cd885fd408a6007c998bd8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/JohnPablok Cburnett Chess set/PNGs/With Shadow/256px/w_knight_png_shadow_256px.png using Guid(f788bdb9cd885fd408a6007c998bd8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30ccfd61aac857efb96d0d76cdb174e') in 0.086498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/sprites/JohnPablok Cburnett Chess set/PNGs/With Shadow/128px/w_queen_png_shadow_128px.png
+  artifactKey: Guid(4d3697507526bb4429696cc8c987032e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/JohnPablok Cburnett Chess set/PNGs/With Shadow/128px/w_queen_png_shadow_128px.png using Guid(4d3697507526bb4429696cc8c987032e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755d8cb63aef178f478a36968444070d') in 0.079541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/sprites/JohnPablok Cburnett Chess set/PNGs/No shadow/512h/w_bishop_png_512px.png
+  artifactKey: Guid(4d41fc7488dfcff4db01fb2fda2db063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/JohnPablok Cburnett Chess set/PNGs/No shadow/512h/w_bishop_png_512px.png using Guid(4d41fc7488dfcff4db01fb2fda2db063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de281a7a75cce1a0cac20491acbfbce7') in 0.114195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/sprites/JohnPablok Cburnett Chess set/PNGs/No shadow/2x/w_bishop_2x_ns.png
+  artifactKey: Guid(f8b1233af3b1b3243a6f63f4e47bb949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/JohnPablok Cburnett Chess set/PNGs/No shadow/2x/w_bishop_2x_ns.png using Guid(f8b1233af3b1b3243a6f63f4e47bb949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd117a81df4f98bb89bfd21f28e6ffa58') in 0.131538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/sprites/JohnPablok Cburnett Chess set/PNGs/No shadow/128h/w_pawn_png_128px.png
+  artifactKey: Guid(9b99469b607f36749ac7d3fa803e4f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/JohnPablok Cburnett Chess set/PNGs/No shadow/128h/w_pawn_png_128px.png using Guid(9b99469b607f36749ac7d3fa803e4f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1441b2e81a9b33cf2dfb2678315fb9') in 0.094831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/sprites/JohnPablok Cburnett Chess set/PNGs/No shadow/128h/w_knight_png_128px.png
+  artifactKey: Guid(aec53087233d2554abb40bc76e09910a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/JohnPablok Cburnett Chess set/PNGs/No shadow/128h/w_knight_png_128px.png using Guid(aec53087233d2554abb40bc76e09910a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d992b0790990b13ae9e269b6fb40290') in 0.080308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/sprites/JohnPablok Cburnett Chess set/PNGs/No shadow/1x/w_queen_1x_ns.png
+  artifactKey: Guid(6f0a364c0285e3b43b389f20fb460e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/JohnPablok Cburnett Chess set/PNGs/No shadow/1x/w_queen_1x_ns.png using Guid(6f0a364c0285e3b43b389f20fb460e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979d5314e77334f56d20ee6a73b99069') in 0.098567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/sprites/JohnPablok Cburnett Chess set/PNGs/No shadow/256h/w_bishop_png_256px.png
+  artifactKey: Guid(85460fe3580206f488d5030a2f7bef63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/JohnPablok Cburnett Chess set/PNGs/No shadow/256h/w_bishop_png_256px.png using Guid(85460fe3580206f488d5030a2f7bef63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7bb0a01cf4641448199b218af8d96e') in 0.087734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/sprites/JohnPablok Cburnett Chess set/PNGs/No shadow/128h/w_queen_png_128px.png
+  artifactKey: Guid(196a0ba8028d7fb43be93b124cd7aa8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/JohnPablok Cburnett Chess set/PNGs/No shadow/128h/w_queen_png_128px.png using Guid(196a0ba8028d7fb43be93b124cd7aa8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a76c8531316b6eb633cb9d253794abb') in 0.066496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/sprites/JohnPablok Cburnett Chess set/PNGs/No shadow/128h/w_bishop_png_128px.png
+  artifactKey: Guid(a8d1e03082e1d2e47a09403cfb6789c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/JohnPablok Cburnett Chess set/PNGs/No shadow/128h/w_bishop_png_128px.png using Guid(a8d1e03082e1d2e47a09403cfb6789c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e24e5f351774bf13b0bd5c75a9fa14b') in 0.069116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.115618 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Vert_Split_disabled.png
+  artifactKey: Guid(a43c02bb4073847f7b8d45b92d46259c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Vert_Split_disabled.png using Guid(a43c02bb4073847f7b8d45b92d46259c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac309b6a82c9020d17a6dea2e30f1478') in 0.071248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Visibility_Hidded@2x.png
+  artifactKey: Guid(f3940f64802892746b2ec336d3b0c5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Visibility_Hidded@2x.png using Guid(f3940f64802892746b2ec336d3b0c5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0922901360a0f7962dfb6b6bc0e6837') in 0.065521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Visibility_Hidded@4x.png
+  artifactKey: Guid(f469f8253737d534ca7809ae6f0d2422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Visibility_Hidded@4x.png using Guid(f469f8253737d534ca7809ae6f0d2422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec770980a4805cb6b83ac87165c68df') in 0.054722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032037 seconds.
+  path: Assets/sprites/JohnPablok Cburnett Chess set/PNGs/No shadow/256h/w_rook_png_256px.png
+  artifactKey: Guid(b03ed463d2efed24a9088e085ac813b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/JohnPablok Cburnett Chess set/PNGs/No shadow/256h/w_rook_png_256px.png using Guid(b03ed463d2efed24a9088e085ac813b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d05964bb156df0d3d6106dbab8664e2') in 0.076638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Weight_Brush@4x.png
+  artifactKey: Guid(3dd5e5c693a816e4f96b869f6465955b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Weight_Brush@4x.png using Guid(3dd5e5c693a816e4f96b869f6465955b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dde7048820685c060eb08bf42f38bb3') in 0.064841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Weight_Slider.png
+  artifactKey: Guid(aa91af43c72989f44bf937fd28243bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Weight_Slider.png using Guid(aa91af43c72989f44bf937fd28243bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a488b27d3a37ca3cfa61f5fdaca19ad') in 0.077848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/xlink.png
+  artifactKey: Guid(556a2f3b046024d4c9621c1b4be5f0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/xlink.png using Guid(556a2f3b046024d4c9621c1b4be5f0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ca6a32b9f66fb86108e031ec566b85') in 0.078934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Weight_Slider@4x.png
+  artifactKey: Guid(ac47ed8ccc79cf04dae198b9cc5b3a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Weight_Slider@4x.png using Guid(ac47ed8ccc79cf04dae198b9cc5b3a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b4a6cb1d5942e8e0f2f5484940a78a') in 0.069352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/sprites/JohnPablok Cburnett Chess set/PNGs/With Shadow/256px/w_rook_png_shadow_256px.png
+  artifactKey: Guid(8079d04fe67f81640ae1cb5cbb987ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/JohnPablok Cburnett Chess set/PNGs/With Shadow/256px/w_rook_png_shadow_256px.png using Guid(8079d04fe67f81640ae1cb5cbb987ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858006a05f85462551d9ad302de640f4') in 0.082088 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
