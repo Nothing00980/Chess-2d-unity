@@ -1,3 +1,5 @@
+
+
 # Chess 2D Game
 
 Welcome to the Chess 2D repository! This project is a 2D chess game developed using Unity, allowing two players to enjoy the classic game of chess in a digital format.
@@ -23,39 +25,7 @@ Welcome to the Chess 2D repository! This project is a 2D chess game developed us
 1. **Clone the Repository:** Begin by cloning this repository to your local machine.
 
    ```sh
-   git clone https://github.com/your-username/chess-2d.git
-
-  
-I apologize for the confusion. I misunderstood your request. Here's the correct Markdown content for the overall README:
-
-markdown
-Copy code
-# Chess 2D Game
-
-Welcome to the Chess 2D repository! This project is a 2D chess game developed using Unity, allowing two players to enjoy the classic game of chess in a digital format.
-
-![Chess 2D Gameplay](path_to_screenshot_or_gif.gif)
-
-## Features
-
-- **Classic Gameplay:** Experience chess in a familiar and classic way, adhering to traditional rules and moves.
-- **2 Player Mode:** Engage in matches with a friend, taking turns to make strategic moves.
-- **User-friendly Interface:** Enjoy an intuitive interface that simplifies navigation and piece management.
-- **Visual Indicators:** Receive visual cues for available moves when selecting a piece, aiding in strategic planning.
-- **Winning Conditions:** Implementing standard chess victory conditions, including checkmate and stalemate detection.
-
-## Getting Started
-
-### Prerequisites
-
-- [Unity](https://unity.com/) - Ensure you have Unity installed on your machine.
-
-### Installation
-
-1. **Clone the Repository:** Begin by cloning this repository to your local machine.
-
-   ```sh
-   git clone https://github.com/your-username/chess-2d.git
+   git clone https://github.com/Nothing00980/chess-2d-unity.git
    ```
 2.Open in Unity: Launch Unity Hub and add the project by selecting the root folder of the cloned repository.
 
