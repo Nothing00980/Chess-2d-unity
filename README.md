@@ -4,7 +4,10 @@
 
 Welcome to the Chess 2D repository! This project is a 2D chess game developed using Unity, allowing two players to enjoy the classic game of chess in a digital format.
 
-![Chess 2D Gameplay](path_to_screenshot_or_gif.gif)
+
+https://github.com/Nothing00980/Chess-2d-unity/assets/100027640/d965e9dd-126b-422b-8a37-5dc41c6a0c8c
+
+
 
 ## Features
 
